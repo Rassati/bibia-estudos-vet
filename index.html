@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#142441">
+  <meta name="description" content="Estude imunologia, hipersensibilidade alimentar e vacinação veterinária com exercícios, respostas explicadas e revisão dos erros.">
+  <title>Bibia Estudos · Medicina Veterinária</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="content.js" defer></script>
+  <script src="core.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Ir para o conteúdo</a>
+  <aside class="sidebar" aria-label="Navegação principal">
+    <a class="brand" href="#inicio"><span class="brand-icon" aria-hidden="true">B</span><span>Bibia Estudos<small>MEDICINA VETERINÁRIA</small></span></a>
+    <div class="sidebar-label">SEU ESPAÇO DE ESTUDO</div>
+    <nav id="nav"></nav>
+    <div class="sidebar-bottom"><span class="mini-book" aria-hidden="true">✦</span><strong>Um assunto de cada vez.</strong><p>Pratique, entenda o erro e volte a revisar.</p><span class="local-label">Progresso salvo neste navegador</span></div>
+  </aside>
+  <div class="workspace">
+    <header class="topbar"><span>Seu caderno de <strong>Veterinária</strong></span><a href="#materiais" class="topbar-link">PDFs e fontes <span aria-hidden="true">↗</span></a></header>
+    <div id="storage-warning" class="storage-warning" hidden>Este navegador não permitiu salvar o progresso. Você pode estudar normalmente, mas o histórico desta sessão pode não permanecer ao fechar.</div>
+    <main id="main" tabindex="-1"><noscript>Ative o JavaScript do navegador para usar os exercícios e a correção. Os PDFs podem ser abertos em <a href="guia-exercicios.pdf">Exercícios</a> e <a href="guia-com-respostas.pdf">Respostas</a>.</noscript></main>
+    <footer class="app-footer">Feito para estudar com calma. <span>Material de revisão · consulte as fontes para os detalhes clínicos.</span></footer>
+  </div>
+  <div id="announcer" class="sr-only" role="status" aria-live="polite"></div>
+  <dialog id="reset-dialog"><h2>Apagar o progresso deste navegador?</h2><p>As notas, respostas e revisões salvas serão removidas. O material de estudo permanece disponível.</p><div class="button-row"><button class="button secondary" data-action="cancel-reset">Manter progresso</button><button class="button danger" data-action="confirm-reset">Apagar progresso</button></div></dialog>
+</body>
+</html>
